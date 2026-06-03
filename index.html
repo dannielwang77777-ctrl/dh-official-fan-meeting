@@ -1,0 +1,1174 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DH Official 大花粉丝见面会两日方案</title>
+  <style>
+    :root {
+      --paper: #fbfaf6;
+      --milk: #fffdf8;
+      --oat: #eee7dc;
+      --sand: #d8cabb;
+      --ink: #22201d;
+      --soft-ink: #69645e;
+      --muted: #969087;
+      --line: rgba(34, 32, 29, .12);
+      --brown: #6e5645;
+      --green: #7d8a73;
+      --flower: #d7a9a3;
+      --butter: #ead8a8;
+      --radius: 8px;
+      --shadow: 0 18px 48px rgba(42, 34, 27, .1);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.72;
+      letter-spacing: 0;
+      background: var(--paper);
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: min(1160px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    .topbar {
+      position: fixed;
+      z-index: 20;
+      top: 0;
+      left: 0;
+      right: 0;
+      border-bottom: 1px solid rgba(255, 253, 248, .28);
+      background: rgba(251, 250, 246, .82);
+      backdrop-filter: blur(18px);
+    }
+
+    .topbar-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      min-height: 64px;
+    }
+
+    .brand {
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      font-size: 16px;
+    }
+
+    .nav {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      color: var(--soft-ink);
+      font-size: 14px;
+    }
+
+    .nav a {
+      padding: 8px 10px;
+      border-radius: 999px;
+    }
+
+    .nav a:hover {
+      background: rgba(34, 32, 29, .06);
+    }
+
+    .hero {
+      position: relative;
+      isolation: isolate;
+      min-height: 92vh;
+      display: grid;
+      align-items: end;
+      padding: 118px 0 68px;
+      background:
+        linear-gradient(90deg, rgba(34, 32, 29, .58), rgba(34, 32, 29, .12) 52%, rgba(251, 250, 246, .1)),
+        url("data:image/svg+xml,%3Csvg width='1800' height='1100' viewBox='0 0 1800 1100' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient id='bg' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop stop-color='%23d8cabb'/%3E%3Cstop offset='.46' stop-color='%23fbf3e5'/%3E%3Cstop offset='1' stop-color='%2396a08d'/%3E%3C/linearGradient%3E%3Cfilter id='shadow'%3E%3CfeDropShadow dx='0' dy='22' stdDeviation='20' flood-color='%23332822' flood-opacity='.22'/%3E%3C/filter%3E%3C/defs%3E%3Crect width='1800' height='1100' fill='url(%23bg)'/%3E%3Cg opacity='.9' filter='url(%23shadow)'%3E%3Crect x='1050' y='134' width='350' height='520' rx='8' fill='%23fffdf8'/%3E%3Crect x='1090' y='178' width='270' height='360' rx='4' fill='%23dfcfc2'/%3E%3Cpath d='M1168 340c44-58 112-58 156 0 26 36 20 91-16 120-40 33-104 33-144 0-36-29-42-84 4-120Z' fill='%23f5eee4'/%3E%3Ccircle cx='1163' cy='281' r='52' fill='%23d7a9a3'/%3E%3Crect x='353' y='244' width='286' height='410' rx='8' fill='%23fffdf8'/%3E%3Cpath d='M414 348c70 40 112 40 174 0l25 118c-38 32-190 32-224 0z' fill='%237d8a73'/%3E%3Cpath d='M467 348c15 32 62 32 78 0' fill='none' stroke='%23fffdf8' stroke-width='8' stroke-linecap='round'/%3E%3Crect x='735' y='475' width='190' height='145' rx='8' fill='%23fffdf8'/%3E%3Cpath d='M920 510c70-6 72 88 4 90' fill='none' stroke='%23fffdf8' stroke-width='20'/%3E%3Cpath d='M760 515h132' stroke='%236e5645' stroke-width='8' stroke-linecap='round'/%3E%3Cpath d='M700 660c210 44 428 42 650-8' stroke='%236e5645' stroke-width='18' stroke-linecap='round' opacity='.45'/%3E%3Ccircle cx='690' cy='310' r='46' fill='%23ead8a8'/%3E%3Cpath d='M692 246v128M628 310h128M646 264l92 92M738 264l-92 92' stroke='%23fffdf8' stroke-width='9' stroke-linecap='round' opacity='.8'/%3E%3C/g%3E%3Cg fill='none' stroke='%23fffdf8' stroke-width='3' opacity='.48'%3E%3Cpath d='M102 902c150-82 280-98 410-45 114 46 222 36 326-26 132-78 274-80 452-6 92 38 192 30 316-32'/%3E%3Cpath d='M140 150c144 56 262 52 354-12 96-67 218-60 336 22'/%3E%3C/g%3E%3C/svg%3E") center / cover;
+      color: var(--milk);
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      background: linear-gradient(90deg, rgba(34, 32, 29, .42), rgba(34, 32, 29, .1) 52%, rgba(251, 250, 246, .05));
+      pointer-events: none;
+    }
+
+    .hero .container {
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero .brand-photo {
+      z-index: 0;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.04fr) minmax(290px, .72fr);
+      gap: 46px;
+      align-items: end;
+    }
+
+    .kicker {
+      margin: 0 0 14px;
+      color: rgba(255, 253, 248, .8);
+      font-size: 13px;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    h1, h2, h3, p {
+      margin-top: 0;
+    }
+
+    h1 {
+      max-width: 820px;
+      margin-bottom: 22px;
+      font-size: clamp(42px, 7.3vw, 92px);
+      line-height: 1.03;
+      letter-spacing: 0;
+    }
+
+    .hero-copy {
+      max-width: 720px;
+      margin-bottom: 0;
+      font-size: clamp(17px, 2vw, 22px);
+      color: rgba(255, 253, 248, .92);
+    }
+
+    .quote-card {
+      border: 1px solid rgba(255, 253, 248, .38);
+      background: rgba(34, 32, 29, .34);
+      backdrop-filter: blur(16px);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: var(--shadow);
+    }
+
+    .quote-card blockquote {
+      margin: 0;
+      font-size: 24px;
+      line-height: 1.45;
+      font-weight: 760;
+    }
+
+    .quote-card p {
+      margin: 14px 0 0;
+      color: rgba(255, 253, 248, .78);
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .stat {
+      min-height: 88px;
+      padding: 14px;
+      border: 1px solid rgba(255, 253, 248, .28);
+      border-radius: var(--radius);
+      background: rgba(255, 253, 248, .12);
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 22px;
+      line-height: 1.2;
+    }
+
+    .stat span {
+      display: block;
+      margin-top: 6px;
+      color: rgba(255, 253, 248, .75);
+      font-size: 13px;
+    }
+
+    main {
+      background: var(--paper);
+    }
+
+    section {
+      padding: 84px 0;
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 32px;
+      margin-bottom: 34px;
+    }
+
+    .section-label {
+      margin-bottom: 8px;
+      color: var(--green);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      margin-bottom: 0;
+      font-size: clamp(28px, 4vw, 48px);
+      line-height: 1.16;
+    }
+
+    .section-note {
+      max-width: 430px;
+      margin-bottom: 0;
+      color: var(--soft-ink);
+      font-size: 15px;
+    }
+
+    .story {
+      background: var(--milk);
+    }
+
+    .story-grid {
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 22px;
+    }
+
+    .story-card, .image-card, .day-card, .concept-card, .budget-card, .timeline-card, .source-card {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255, 253, 248, .78);
+      box-shadow: 0 14px 34px rgba(42, 34, 27, .07);
+    }
+
+    .story-card {
+      padding: 32px;
+    }
+
+    .story-card .lead {
+      font-size: 25px;
+      line-height: 1.5;
+      color: var(--ink);
+      font-weight: 740;
+    }
+
+    .story-card p {
+      color: var(--soft-ink);
+    }
+
+    .symbols {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .symbol {
+      padding: 16px;
+      min-height: 128px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--paper);
+    }
+
+    .symbol b {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 18px;
+    }
+
+    .symbol span {
+      color: var(--soft-ink);
+      font-size: 14px;
+    }
+
+    .image-card {
+      min-height: 100%;
+      padding: 18px;
+      background: #f3eee7;
+    }
+
+    .asset-frame {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .brand-photo {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .brand-photo.is-missing,
+    .brand-photo[hidden] {
+      display: none;
+    }
+
+    .asset-note {
+      position: absolute;
+      z-index: 2;
+      left: 18px;
+      right: 18px;
+      bottom: 18px;
+      padding: 16px;
+      border-radius: var(--radius);
+      background: rgba(255, 253, 248, .9);
+      color: var(--soft-ink);
+      font-size: 14px;
+    }
+
+    .asset-note strong {
+      display: block;
+      color: var(--ink);
+      font-size: 17px;
+    }
+
+    .photo-mock {
+      position: relative;
+      min-height: 420px;
+      border-radius: var(--radius);
+      overflow: hidden;
+      background:
+        linear-gradient(135deg, rgba(125, 138, 115, .72), rgba(255, 253, 248, .16)),
+        url("data:image/svg+xml,%3Csvg width='900' height='1100' viewBox='0 0 900 1100' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='900' height='1100' fill='%23e8dfd3'/%3E%3Crect x='70' y='96' width='330' height='820' rx='8' fill='%23fffdf8'/%3E%3Cpath d='M160 250c74 40 128 40 198 0l34 170c-52 34-226 34-270 0z' fill='%236e5645'/%3E%3Cpath d='M228 252c18 42 70 42 90 0' fill='none' stroke='%23fffdf8' stroke-width='9' stroke-linecap='round'/%3E%3Crect x='485' y='135' width='300' height='420' rx='8' fill='%23fffdf8'/%3E%3Ccircle cx='635' cy='270' r='78' fill='%23d7a9a3'/%3E%3Cpath d='M640 176v188M546 270h188M574 204l132 132M706 204L574 336' stroke='%23fffdf8' stroke-width='12' stroke-linecap='round'/%3E%3Crect x='475' y='660' width='300' height='180' rx='8' fill='%23fffdf8'/%3E%3Cpath d='M520 720h210' stroke='%236e5645' stroke-width='12' stroke-linecap='round'/%3E%3Cpath d='M530 770h145' stroke='%23d7a9a3' stroke-width='12' stroke-linecap='round'/%3E%3C/svg%3E") center / cover;
+    }
+
+    .main-plan {
+      background: #f3eee7;
+    }
+
+    .plan-hero {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 22px;
+      align-items: stretch;
+      margin-bottom: 22px;
+    }
+
+    .plan-title {
+      padding: 30px;
+      border-radius: var(--radius);
+      background: var(--ink);
+      color: var(--milk);
+    }
+
+    .plan-title .section-label {
+      color: var(--butter);
+    }
+
+    .plan-title h2 {
+      margin-bottom: 16px;
+    }
+
+    .plan-title p {
+      margin-bottom: 0;
+      color: rgba(255, 253, 248, .78);
+    }
+
+    .schedule-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 22px;
+    }
+
+    .day-card {
+      padding: 26px;
+      background: var(--milk);
+    }
+
+    .day-card h3 {
+      margin-bottom: 10px;
+      font-size: 28px;
+      line-height: 1.2;
+    }
+
+    .day-card .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 18px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 32px;
+      padding: 5px 11px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      color: var(--soft-ink);
+      background: var(--paper);
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .flow {
+      display: grid;
+      gap: 12px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .flow li {
+      display: grid;
+      grid-template-columns: 70px 1fr;
+      gap: 14px;
+      padding: 12px 0;
+      border-top: 1px solid var(--line);
+    }
+
+    .flow time {
+      color: var(--green);
+      font-weight: 800;
+      font-size: 14px;
+    }
+
+    .flow strong {
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    .flow span {
+      color: var(--soft-ink);
+      font-size: 14px;
+    }
+
+    .module-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 22px;
+    }
+
+    .module {
+      min-height: 188px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--milk);
+    }
+
+    .module h3 {
+      margin-bottom: 8px;
+      font-size: 20px;
+    }
+
+    .module p {
+      margin-bottom: 0;
+      color: var(--soft-ink);
+      font-size: 14px;
+    }
+
+    .concepts {
+      background: var(--paper);
+    }
+
+    .brand-gallery {
+      display: grid;
+      grid-template-columns: 1.2fr .8fr .8fr;
+      grid-auto-rows: 230px;
+      gap: 14px;
+      margin-bottom: 32px;
+    }
+
+    .gallery-item {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      min-height: 220px;
+      background:
+        linear-gradient(135deg, rgba(255, 253, 248, .2), rgba(34, 32, 29, .08)),
+        #efe8dc;
+      box-shadow: 0 14px 34px rgba(42, 34, 27, .07);
+    }
+
+    .gallery-item.large {
+      grid-row: span 2;
+    }
+
+    .gallery-item .asset-note {
+      font-size: 13px;
+    }
+
+    .gallery-item .asset-note strong {
+      font-size: 15px;
+    }
+
+    .concept-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    .concept-card {
+      overflow: hidden;
+      background: var(--milk);
+    }
+
+    .concept-image {
+      min-height: 260px;
+      background: var(--image);
+      position: relative;
+    }
+
+    .concept-image::after {
+      content: "";
+      position: absolute;
+      inset: auto 20px 20px auto;
+      width: 108px;
+      height: 108px;
+      border: 1px solid rgba(255, 253, 248, .72);
+      border-radius: 50%;
+      background: rgba(255, 253, 248, .24);
+    }
+
+    .concept-body {
+      padding: 24px;
+    }
+
+    .concept-body h3 {
+      margin-bottom: 10px;
+      font-size: 25px;
+      line-height: 1.22;
+    }
+
+    .concept-body p {
+      color: var(--soft-ink);
+    }
+
+    .list {
+      display: grid;
+      gap: 8px;
+      margin: 18px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .list li {
+      position: relative;
+      padding-left: 17px;
+      color: var(--soft-ink);
+      font-size: 14px;
+    }
+
+    .list li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: .82em;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--green);
+    }
+
+    .budget {
+      background: var(--milk);
+    }
+
+    .budget-layout {
+      display: grid;
+      grid-template-columns: .82fr 1.18fr;
+      gap: 22px;
+      align-items: start;
+    }
+
+    .budget-card {
+      padding: 26px;
+    }
+
+    .budget-card.big {
+      background: #26231f;
+      color: var(--milk);
+      position: sticky;
+      top: 86px;
+    }
+
+    .budget-card.big p {
+      color: rgba(255, 253, 248, .74);
+    }
+
+    .budget-card h3 {
+      margin-bottom: 8px;
+      font-size: 21px;
+    }
+
+    .budget-card strong {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--green);
+      font-size: 28px;
+      line-height: 1.1;
+    }
+
+    .budget-card.big strong {
+      color: var(--butter);
+      font-size: 44px;
+    }
+
+    .budget-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .timeline {
+      background: #f3eee7;
+    }
+
+    .timeline-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .timeline-card {
+      min-height: 220px;
+      padding: 20px;
+      background: var(--milk);
+    }
+
+    .timeline-card b {
+      display: block;
+      margin-bottom: 12px;
+      color: var(--green);
+      font-size: 13px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .timeline-card h3 {
+      margin-bottom: 8px;
+      font-size: 19px;
+      line-height: 1.25;
+    }
+
+    .timeline-card p {
+      margin-bottom: 0;
+      color: var(--soft-ink);
+      font-size: 14px;
+    }
+
+    .sources {
+      background: var(--paper);
+    }
+
+    .source-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .source-card {
+      padding: 20px;
+      background: var(--milk);
+    }
+
+    .source-card h3 {
+      margin-bottom: 8px;
+      font-size: 18px;
+    }
+
+    .source-card p {
+      margin-bottom: 14px;
+      color: var(--soft-ink);
+      font-size: 14px;
+    }
+
+    .source-card a {
+      display: inline-flex;
+      min-height: 34px;
+      align-items: center;
+      padding: 6px 11px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--brown);
+      font-size: 13px;
+      word-break: break-all;
+    }
+
+    .footer {
+      padding: 32px 0 44px;
+      color: rgba(255, 253, 248, .78);
+      background: var(--ink);
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .footer strong {
+      color: var(--milk);
+    }
+
+    .print-button {
+      min-height: 40px;
+      padding: 8px 14px;
+      border: 1px solid rgba(255, 253, 248, .24);
+      border-radius: var(--radius);
+      background: transparent;
+      color: var(--milk);
+      font: inherit;
+      cursor: pointer;
+    }
+
+    @media (max-width: 980px) {
+      .hero-grid, .story-grid, .plan-hero, .budget-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .stats, .symbols, .module-grid, .concept-grid, .timeline-grid, .source-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .brand-gallery {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .gallery-item.large {
+        grid-row: span 1;
+      }
+
+      .budget-card.big {
+        position: static;
+      }
+    }
+
+    @media (max-width: 700px) {
+      .container {
+        width: min(100% - 28px, 1160px);
+      }
+
+      .topbar {
+        position: static;
+      }
+
+      .topbar-inner {
+        align-items: flex-start;
+        padding: 12px 0;
+      }
+
+      .nav {
+        display: none;
+      }
+
+      .hero {
+        min-height: auto;
+        padding: 54px 0;
+      }
+
+      h1 {
+        font-size: 36px;
+        line-height: 1.12;
+        overflow-wrap: anywhere;
+      }
+
+      .hero-copy {
+        font-size: 16px;
+      }
+
+      .stats, .symbols, .schedule-grid, .module-grid, .concept-grid, .budget-grid, .timeline-grid, .source-grid, .brand-gallery {
+        grid-template-columns: 1fr;
+      }
+
+      section {
+        padding: 58px 0;
+      }
+
+      .section-head {
+        display: block;
+      }
+
+      .section-note {
+        margin-top: 12px;
+      }
+
+      .flow li {
+        grid-template-columns: 1fr;
+        gap: 4px;
+      }
+
+      .photo-mock {
+        min-height: 360px;
+      }
+    }
+
+    @media print {
+      .topbar, .footer {
+        display: none;
+      }
+
+      .hero {
+        min-height: auto;
+        padding: 40px 0;
+        color: var(--ink);
+        background: var(--milk);
+      }
+
+      .hero-copy, .kicker {
+        color: var(--soft-ink);
+      }
+
+      .quote-card, .stat {
+        color: var(--ink);
+        background: var(--milk);
+        border-color: var(--line);
+      }
+
+      section {
+        padding: 32px 0;
+      }
+
+      .story-card, .image-card, .day-card, .concept-card, .budget-card, .timeline-card, .source-card {
+        box-shadow: none;
+        break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#top">DH Official · 大花</a>
+      <nav class="nav" aria-label="页面导航">
+        <a href="#story">核心故事</a>
+        <a href="#main-plan">主方案</a>
+        <a href="#concepts">另外两案</a>
+        <a href="#budget">预算</a>
+        <a href="#timeline">排期</a>
+      </nav>
+    </div>
+  </header>
+
+    <section class="hero asset-frame" id="top">
+      <img class="brand-photo" src="hero.png" alt="大花粉丝见面会韩风面包咖啡插图" onerror="this.hidden=true">
+      <div class="container hero-grid">
+      <div>
+        <p class="kicker">Fan Meeting Proposal · Aug 10-11</p>
+        <h1>所有美好的东西，都需要时间慢慢发酵</h1>
+        <p class="hero-copy">为DH Official大花设计一场两天构成的粉丝见面会：用烘焙讲成长，用咖啡讲停顿，用鲜花讲自然美感，用新品穿搭讲品牌陪伴。</p>
+        <div class="stats" aria-label="活动关键信息">
+          <div class="stat"><strong>2天</strong><span>上新预热直播 + 线下见面会</span></div>
+          <div class="stat"><strong>30人内</strong><span>核心粉丝、小规模深互动</span></div>
+          <div class="stat"><strong>10万元</strong><span>预算建议，含布置与内容产出</span></div>
+          <div class="stat"><strong>韩风简洁</strong><span>面包、花、咖啡、珍珠、蝴蝶结</span></div>
+        </div>
+      </div>
+
+      <aside class="quote-card">
+        <blockquote>生活很多时候是快的。<br>但面包不是。鲜花不是。成长也不是。</blockquote>
+        <p>这句话可以作为整场活动的主视觉文案，也可以贯穿直播开场、现场菜单、手卡和伴手礼。</p>
+      </aside>
+    </div>
+  </section>
+
+  <main>
+    <section class="story" id="story">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-label">Brand Story</p>
+            <h2>把粉丝真实生活，变成活动的情绪主线</h2>
+          </div>
+          <p class="section-note">大花的用户画像不是“只会打卡的女生”，而是每天工作、带孩子、处理生活琐事，但仍然愿意给自己留一点漂亮和从容的人。</p>
+        </div>
+
+        <div class="story-grid">
+          <article class="story-card">
+            <p class="lead">活动的核心不是做一场热闹聚会，而是让粉丝感到：DH Official懂她的忙，也懂她想慢下来的那一刻。</p>
+            <p>所以现场不应该只是“烘焙 + 咖啡 + 拍照”，而是要让每个环节都承接品牌叙事。面团发酵、花瓣装饰、咖啡暂停、新品试穿，都在讲同一个主题：女性的生活和成长，需要时间，也值得被温柔对待。</p>
+            <div class="symbols">
+              <div class="symbol"><b>烘焙</b><span>代表发酵与成长，适合主理人和粉丝一起完成。</span></div>
+              <div class="symbol"><b>咖啡</b><span>代表生活里的停顿，适合聊天、访谈、情绪表达。</span></div>
+              <div class="symbol"><b>鲜花</b><span>代表自然与美感，适合韩系布置和品牌照片。</span></div>
+              <div class="symbol"><b>新品</b><span>代表品牌成长，当天上新可自然露出和试穿。</span></div>
+            </div>
+          </article>
+
+          <aside class="image-card">
+            <div class="photo-mock">
+              <img class="brand-photo" src="founder.png" alt="大花品牌衣橱花艺氛围插图" onerror="this.hidden=true">
+              <div class="asset-note">
+                <strong>品牌图片优先替换位</strong>
+                当前使用符合品牌调性的韩风衣橱插图；如后续有主理人大花照片，可替换为 `founder.png`。
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="main-plan" id="main-plan">
+      <div class="container">
+        <div class="plan-hero">
+          <div class="plan-title">
+            <p class="section-label">Main Concept</p>
+            <h2>方案一：慢慢发酵的花园咖啡店</h2>
+            <p>这是最贴合你现有设想的主推方案。它将“烘焙店参考 + 上新直播 + 主理人互动 + 新品露出 + 粉丝下午茶”合成一个两天活动。</p>
+          </div>
+          <article class="day-card">
+            <h3>适合场地</h3>
+            <div class="meta">
+              <span class="pill">广州韩系面包店/咖啡店</span>
+              <span class="pill">可直播布景</span>
+              <span class="pill">可烘焙体验</span>
+              <span class="pill">有自然光</span>
+            </div>
+            <p>参考“万菱汇盐葱头”这类韩系可爱面包店：浅色木质、奶油墙面、面包展示、花艺桌面。场地要提前确认电源、直播网络、烤箱安全、试衣区隐私和拍摄动线。</p>
+          </article>
+        </div>
+
+        <div class="schedule-grid">
+          <article class="day-card">
+            <h3>Day 1 · 上新预热直播</h3>
+            <div class="meta">
+              <span class="pill">8月10日</span>
+              <span class="pill">咖啡店布景</span>
+              <span class="pill">抖音直播</span>
+              <span class="pill">新品软露出</span>
+            </div>
+            <ul class="flow">
+              <li><time>14:00</time><div><strong>布景开场</strong><span>咖啡店布置成“大花慢慢发酵花园”，展示雏菊、蝴蝶结、珍珠元素。</span></div></li>
+              <li><time>15:00</time><div><strong>主理人烘焙直播</strong><span>大花边做主题面包/小甜点，边讲品牌成长和新品灵感。</span></div></li>
+              <li><time>16:00</time><div><strong>新品穿搭露出</strong><span>用“闺蜜下午茶、接娃后咖啡、周末小资生活”三组场景介绍新品。</span></div></li>
+              <li><time>17:00</time><div><strong>粉丝线上互动</strong><span>直播间投票选择次日甜点装饰、花束色系和最想试穿款。</span></div></li>
+            </ul>
+          </article>
+
+          <article class="day-card">
+            <h3>Day 2 · 线下粉丝见面会</h3>
+            <div class="meta">
+              <span class="pill">8月11日</span>
+              <span class="pill">30人以内</span>
+              <span class="pill">烘焙 + 咖啡 + 花</span>
+              <span class="pill">试穿反馈</span>
+            </div>
+            <ul class="flow">
+              <li><time>13:30</time><div><strong>签到与换装</strong><span>领取大花围裙、姓名卡、偏好卡；现场陈列当天新品。</span></div></li>
+              <li><time>14:20</time><div><strong>主题烘焙</strong><span>做雏菊花瓣、蝴蝶结、珍珠元素甜点，主理人分桌互动。</span></div></li>
+              <li><time>15:50</time><div><strong>咖啡暂停</strong><span>围坐喝咖啡聊天，聊工作、孩子、生活节奏和穿衣真实需求。</span></div></li>
+              <li><time>16:40</time><div><strong>新品试穿与拍照</strong><span>三组韩风下午茶打卡位，现场记录尺码、版型、颜色反馈。</span></div></li>
+              <li><time>18:00</time><div><strong>花开收尾</strong><span>粉丝带走小花束、甜点盒、拍立得和一张写给自己的慢生活卡。</span></div></li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="module-grid" aria-label="主方案环节模块">
+          <div class="module">
+            <h3>烘焙主题</h3>
+            <p>做三款低难度高出片甜点：雏菊花瓣饼干、蝴蝶结小面包、珍珠奶油杯。颜色控制在奶油白、浅黄、花粉、淡绿。</p>
+          </div>
+          <div class="module">
+            <h3>新品上新</h3>
+            <p>直播当天用“生活场景”而不是硬卖点介绍新品；线下让粉丝试穿、搭配、拍照，收集真实反馈。</p>
+          </div>
+          <div class="module">
+            <h3>粉丝洞察</h3>
+            <p>用偏好卡记录她们的日常：工作、带娃、通勤、约会、周末出门；重点问尺码、面料、搭配难点。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="concepts" id="concepts">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-label">Two More Concepts</p>
+            <h2>另外两个符合品牌调性的方案</h2>
+          </div>
+          <p class="section-note">两个备选都保留韩风简洁、女性生活方式、新品露出和粉丝关系维护，但分别偏“花艺共创”和“衣橱电台”。</p>
+        </div>
+
+        <div class="brand-gallery" aria-label="品牌图片素材墙">
+          <div class="gallery-item large asset-frame">
+            <img class="brand-photo" src="brand-images/look-01.jpg" alt="DH Official新品穿搭图一" onerror="this.hidden=true">
+            <div class="asset-note"><strong>look-01.jpg</strong>淘宝店铺重点新品或模特穿搭主图</div>
+          </div>
+          <div class="gallery-item asset-frame">
+            <img class="brand-photo" src="brand-images/look-02.jpg" alt="DH Official新品穿搭图二" onerror="this.hidden=true">
+            <div class="asset-note"><strong>look-02.jpg</strong>温柔通勤/闺蜜下午茶穿搭</div>
+          </div>
+          <div class="gallery-item asset-frame">
+            <img class="brand-photo" src="brand-images/look-03.jpg" alt="DH Official新品穿搭图三" onerror="this.hidden=true">
+            <div class="asset-note"><strong>look-03.jpg</strong>周末小资生活或咖啡店穿搭</div>
+          </div>
+          <div class="gallery-item asset-frame">
+            <img class="brand-photo" src="brand-images/live.jpg" alt="DH Official抖音上新直播截图" onerror="this.hidden=true">
+            <div class="asset-note"><strong>live.jpg</strong>抖音账号主页或上新直播截图</div>
+          </div>
+          <div class="gallery-item asset-frame">
+            <img class="brand-photo" src="bakery.png" alt="韩系面包咖啡店参考插图" onerror="this.hidden=true">
+            <div class="asset-note"><strong>bakery.png</strong>面包店/咖啡店参考插图</div>
+          </div>
+        </div>
+
+        <div class="concept-grid">
+          <article class="concept-card">
+            <div class="concept-image" style="--image: linear-gradient(135deg, rgba(215,169,163,.9), rgba(255,253,248,.4)), url('data:image/svg+xml,%3Csvg width=%22800%22 height=%22800%22 viewBox=%220 0 800 800%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Crect width=%22800%22 height=%22800%22 fill=%22%23efe8dc%22/%3E%3Ccircle cx=%22320%22 cy=%22270%22 r=%2290%22 fill=%22%23d7a9a3%22/%3E%3Cpath d=%22M320 130v280M180 270h280M220 170l200 200M420 170 220 370%22 stroke=%22%23fffdf8%22 stroke-width=%2216%22 stroke-linecap=%22round%22/%3E%3Crect x=%22480%22 y=%22380%22 width=%22170%22 height=%22220%22 rx=%228%22 fill=%22%23fffdf8%22/%3E%3Cpath d=%22M520 470h90M520 520h62%22 stroke=%22%236e5645%22 stroke-width=%2210%22 stroke-linecap=%22round%22/%3E%3C/svg%3E');"></div>
+            <div class="concept-body">
+              <p class="section-label">Plan 02</p>
+              <h3>花开衣橱 · 花艺共创下午茶</h3>
+              <p>把鲜花作为主视觉和互动核心。粉丝做小花束、搭配新品、选择“我的花期穿搭”，适合突出女性自然美感和品牌温柔气质。</p>
+              <ul class="list">
+                <li>Day 1：抖音直播花艺布景 + 新品色系讲解</li>
+                <li>Day 2：粉丝花束共创 + 花色穿搭试衣</li>
+                <li>洞察重点：粉丝喜欢的颜色、氛围、穿衣场景</li>
+                <li>适合上新：碎花、蕾丝、浅色套装、温柔通勤款</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="concept-card">
+            <div class="concept-image" style="--image: linear-gradient(135deg, rgba(234,216,168,.92), rgba(255,253,248,.36)), url('data:image/svg+xml,%3Csvg width=%22800%22 height=%22800%22 viewBox=%220 0 800 800%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Crect width=%22800%22 height=%22800%22 fill=%22%23f4efe6%22/%3E%3Crect x=%22136%22 y=%22132%22 width=%22230%22 height=%22480%22 rx=%228%22 fill=%22%23fffdf8%22/%3E%3Cpath d=%22M196 250c54 32 96 32 150 0l22 130c-44 28-164 28-202 0z%22 fill=%22%237d8a73%22/%3E%3Crect x=%22450%22 y=%22230%22 width=%22195%22 height=%22155%22 rx=%228%22 fill=%22%23fffdf8%22/%3E%3Cpath d=%22M480 292h132M480 334h88%22 stroke=%22%236e5645%22 stroke-width=%2210%22 stroke-linecap=%22round%22/%3E%3Ccircle cx=%22550%22 cy=%22526%22 r=%2268%22 fill=%22%23d7a9a3%22/%3E%3C/svg%3E');"></div>
+            <div class="concept-body">
+              <p class="section-label">Plan 03</p>
+              <h3>大花衣橱电台 · 慢生活圆桌</h3>
+              <p>把活动做成“线下小电台”。粉丝围坐喝咖啡，聊工作、妈妈身份、生活琐事、穿衣困扰，再由大花用新品搭配回应。</p>
+              <ul class="list">
+                <li>Day 1：直播发起“今天你最想慢下来的时刻”话题</li>
+                <li>Day 2：咖啡圆桌 + 穿搭问诊 + 主理人回应</li>
+                <li>洞察重点：真实购买动机、尺码痛点、情绪价值</li>
+                <li>适合上新：通勤、松弛、亲子出行、耐穿基础款</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="concept-card">
+            <div class="concept-image" style="--image: linear-gradient(135deg, rgba(125,138,115,.9), rgba(255,253,248,.36)), url('data:image/svg+xml,%3Csvg width=%22800%22 height=%22800%22 viewBox=%220 0 800 800%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Crect width=%22800%22 height=%22800%22 fill=%22%23e9e4d9%22/%3E%3Crect x=%22120%22 y=%22430%22 width=%22560%22 height=%2290%22 rx=%2245%22 fill=%22%236e5645%22 opacity=%22.55%22/%3E%3Crect x=%22200%22 y=%22305%22 width=%22155%22 height=%22155%22 rx=%228%22 fill=%22%23fffdf8%22/%3E%3Cpath d=%22M355 345c70-6 76 78 10 82%22 fill=%22none%22 stroke=%22%23fffdf8%22 stroke-width=%2218%22/%3E%3Cpath d=%22M230 370h95%22 stroke=%22%236e5645%22 stroke-width=%2210%22 stroke-linecap=%22round%22/%3E%3Ccircle cx=%22500%22 cy=%22290%22 r=%2274%22 fill=%22%23ead8a8%22/%3E%3Cpath d=%22M500 190v200M400 290h200%22 stroke=%22%23fffdf8%22 stroke-width=%2213%22 stroke-linecap=%22round%22/%3E%3C/svg%3E');"></div>
+            <div class="concept-body">
+              <p class="section-label">Recommended Mix</p>
+              <h3>最终建议：方案一为主，加入花艺和圆桌</h3>
+              <p>最稳的执行方式是用“慢慢发酵的花园咖啡店”作为主轴，加入方案二的小花束和方案三的咖啡圆桌，让活动同时好看、好聊、好沉淀。</p>
+              <ul class="list">
+                <li>主视觉：面包 + 鲜花 + 咖啡 + 新品衣橱</li>
+                <li>传播：Day 1抖音上新直播，Day 2粉丝UGC</li>
+                <li>体验：烘焙动手、咖啡停顿、花束带走</li>
+                <li>结果：照片视频、直播切片、粉丝洞察报告</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="budget" id="budget">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-label">Budget</p>
+            <h2>两天活动预算建议</h2>
+          </div>
+          <p class="section-note">预算按约10万元控制。重点投在场地气质、直播布景、体验物料、影像产出和粉丝伴手礼。</p>
+        </div>
+
+        <div class="budget-layout">
+          <article class="budget-card big">
+            <h3>预算上限建议</h3>
+            <strong>￥100,000</strong>
+            <p>若需要压缩预算，优先保留场地、直播布景、摄影视频、伴手礼；花艺和定制物料可做轻量版。</p>
+          </article>
+
+          <div class="budget-grid">
+            <article class="budget-card"><h3>场地与餐饮</h3><strong>30,000-36,000</strong><p>咖啡店/面包店两天场地、咖啡、甜品、烘焙材料、基础服务。</p></article>
+            <article class="budget-card"><h3>直播与布景</h3><strong>16,000-22,000</strong><p>抖音上新直播布景、灯光、电源、收音、桌面花艺、主视觉装置。</p></article>
+            <article class="budget-card"><h3>摄影视频</h3><strong>12,000-16,000</strong><p>直播切片、现场照片、短视频、粉丝合影、活动花絮。</p></article>
+            <article class="budget-card"><h3>服装陈列</h3><strong>8,000-12,000</strong><p>新品衣架、镜子、试穿区、熨烫、尺码牌、搭配手卡。</p></article>
+            <article class="budget-card"><h3>互动物料</h3><strong>10,000-14,000</strong><p>烘焙工具、雏菊/蝴蝶结/珍珠元素、花束材料、偏好卡、菜单卡。</p></article>
+            <article class="budget-card"><h3>伴手礼与机动</h3><strong>12,000-16,000</strong><p>定制围裙、小花束、甜点盒、拍立得、感谢卡、运输和备用费用。</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="timeline" id="timeline">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-label">Timeline</p>
+            <h2>从上新到复盘的执行节奏</h2>
+          </div>
+          <p class="section-note">这次活动是内容和线下体验一起做，排期要同时管理直播、场地、粉丝邀约和新品样衣。</p>
+        </div>
+
+        <div class="timeline-grid">
+          <article class="timeline-card"><b>T-35天</b><h3>确认主题与场地</h3><p>锁定咖啡/面包店，确认可直播、可烘焙、可布景、可试穿。</p></article>
+          <article class="timeline-card"><b>T-25天</b><h3>确定新品与脚本</h3><p>选定上新款、穿搭场景、直播节奏、主理人话术和粉丝互动问题。</p></article>
+          <article class="timeline-card"><b>T-18天</b><h3>粉丝邀约与问卷</h3><p>收集尺码、职业/生活状态、饮食禁忌、最想参与的活动模块。</p></article>
+          <article class="timeline-card"><b>T-10天</b><h3>物料制作</h3><p>完成花艺、烘焙装饰、围裙、偏好卡、菜单卡、伴手礼和主视觉。</p></article>
+          <article class="timeline-card"><b>活动后</b><h3>内容与洞察复盘</h3><p>输出直播切片、现场照片、粉丝反馈、产品建议和下一次社群动作。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="sources" id="sources">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-label">Reference Links</p>
+            <h2>素材来源与替换建议</h2>
+          </div>
+          <p class="section-note">平台短链建议由团队在浏览器里打开后，导出商品图、主理人图、直播截图，再替换页面中的品牌图片位。</p>
+        </div>
+
+        <div class="source-grid">
+          <article class="source-card">
+            <h3>淘宝店铺</h3>
+            <p>建议截取店铺首页、重点新品、模特穿搭图，用于主视觉和新品陈列区。</p>
+            <a href="https://m.tb.cn/h.RhOEM5gzPuOUdaH">打开淘宝链接</a>
+          </article>
+          <article class="source-card">
+            <h3>抖音账号</h3>
+            <p>建议截取账号主页、上新视频封面、主理人出镜画面，用于直播方案说明。</p>
+            <a href="https://v.douyin.com/dCkgnCN5lZU/">打开抖音链接</a>
+          </article>
+          <article class="source-card">
+            <h3>面包店参考</h3>
+            <p>建议参考盐葱头这类韩系面包店的浅色空间、面包陈列和咖啡桌面氛围。</p>
+            <a href="http://xhslink.com/o/3LyKcd4UGc">打开小红书链接</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>DH Official 大花粉丝见面会</strong>
+        <div>慢慢发酵、咖啡停顿、花开美感、上新陪伴。</div>
+      </div>
+      <button class="print-button" type="button" onclick="window.print()">打印提案</button>
+    </div>
+  </footer>
+</body>
+</html>
